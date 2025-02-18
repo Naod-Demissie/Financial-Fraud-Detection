@@ -25,3 +25,9 @@ This notebook is dedicated to feature engineering, which involves creating new f
 - **Import Libraries**: Loading necessary libraries for feature engineering.
 - **Data Loading**: Loading the processed data.
 - **Feature Engineering**: Creating new features such as time-based features, transaction frequency, and velocity. Encoding categorical features and normalizing numerical features. Splitting the data into training and testing sets and saving them for model training.
+
+### `4.0-Model-Training.ipynb`
+
+This notebook covers the training of various machine learning models:
+- **Import Libraries**: Loading necessary libraries for model training.
+- **Modeling**: Initializing and training classical machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) and deep learning models (CNN, RNN, LSTM) on the processed data. Evaluating the performance of each model using appropriate metrics.

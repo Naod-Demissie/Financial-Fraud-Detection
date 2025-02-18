@@ -20,6 +20,22 @@ This module is responsible for feature engineering, which involves creating new 
   - `process_creditcard_data`: Processes the credit card data by normalizing features and splitting the data into training, validation, and test sets.
   - `split_and_save`: Splits the data into training, validation, and test sets and saves them as .npy files.
 
+## `train_models.py`
+
+This module covers the training of various machine learning models:
+- **`ClassicalModelTrainer` Class**:
+  - **Initialization**: Initializes the class with MLflow tracking.
+  - `load_data`: Loads the processed data for a specified dataset.
+  - `train_model`: Trains a specified classical machine learning model (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) on the loaded data and logs the model with MLflow.
+  - `evaluate_model`: Evaluates the trained model on validation and test sets, prints accuracy, and plots confusion matrices.
+  - `plot_confusion_matrix`: Plots the confusion matrix for a specified model and dataset.
+- **`DeepModelTrainer` Class**:
+  - **Initialization**: Initializes the class with MLflow tracking.
+  - `load_data`: Loads the processed data for a specified dataset.
+  - `initialize_model`: Initializes a specified deep learning model (CNN, RNN, LSTM).
+  - `train_model`: Trains the initialized deep learning model on the loaded data, saves the best model, and plots training progress.
+  - `evaluate_model`: Evaluates the trained model on the test set, prints accuracy, and plots confusion matrices.
+  - `plot_training_progress`: Plots the training and validation accuracy and loss over epochs.
 
 ## `explore_data.py`
 
