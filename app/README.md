@@ -10,6 +10,7 @@ A Flask-based API for analyzing financial fraud data includes several endpoints 
 - `GET /api/device_analysis`: Returns fraud cases by device ID.
 - `GET /api/correlation_analysis`: Performs correlation analysis on fraud-related features.
 - `GET /api/univariate_analysis`: Performs univariate analysis on fraud-related features.
+- `GET /dashboard/`: Displays a Dash dashboard with fraud analysis charts.
 
 ## How to Run
 
@@ -31,3 +32,8 @@ A Flask-based API for analyzing financial fraud data includes several endpoints 
 
 4. **Access the API**:
     Open your browser and navigate to `http://127.0.0.1:5000`.
+
+
+## Dashboard
+
+The Dash dashboard is accessible at `http://127.0.0.1:5000/dashboard/` and provides visualizations for fraud trends and fraud cases by location.
