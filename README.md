@@ -34,8 +34,8 @@ This project enhances fraud detection for e-commerce and banking transactions at
 
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
-   cd <project_directory>
+   git clone https://github.com/Naod-Demissie/Financial-Fraud-Detection.git
+   cd Financial-Fraud-Detection
    ```
 
 2. Create a virtual environment and install dependencies:
