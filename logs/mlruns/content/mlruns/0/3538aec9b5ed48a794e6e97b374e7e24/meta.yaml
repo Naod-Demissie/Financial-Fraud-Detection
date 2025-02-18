@@ -1,0 +1,15 @@
+artifact_uri: /content/mlruns/0/3538aec9b5ed48a794e6e97b374e7e24/artifacts
+end_time: 1739626201917
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3538aec9b5ed48a794e6e97b374e7e24
+run_name: colorful-grouse-628
+run_uuid: 3538aec9b5ed48a794e6e97b374e7e24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739622530274
+status: 3
+tags: []
+user_id: root
