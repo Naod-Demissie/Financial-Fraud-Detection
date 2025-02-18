@@ -37,6 +37,16 @@ This module covers the training of various machine learning models:
   - `evaluate_model`: Evaluates the trained model on the test set, prints accuracy, and plots confusion matrices.
   - `plot_training_progress`: Plots the training and validation accuracy and loss over epochs.
 
+## `interprate_models.py`
+
+This module focuses on interpreting the trained models to understand their decision-making process:
+- **`ModelExplainability` Class**:
+  - **Initialization**: Initializes the class with the dataset name and model type, and loads the test data and model.
+  - `load_data`: Loads the test data for a specified dataset.
+  - `load_model`: Loads the trained model (classical or deep learning) for a specified dataset.
+  - `explain_with_shap`: Generates SHAP explanations for the model's predictions and plots a summary plot.
+  - `explain_with_lime`: Generates LIME explanations for a random instance from the test set and plots the explanation.
+
 ## `explore_data.py`
 
 This module is dedicated to exploratory data analysis (EDA) to understand the data better:
