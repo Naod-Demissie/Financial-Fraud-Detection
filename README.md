@@ -6,10 +6,14 @@ This project enhances fraud detection for e-commerce and banking transactions at
 
 
 ```
+├── app
+│   ├── __init__.py
+│   └── serve_model.py
 ├── data
 │   ├── processed
 │   └── raw
 ├── logs
+│   ├── app.log
 │   └── mlruns
 ├── notebooks
 │   ├── 1.0-data-preprocessing.ipynb
@@ -22,10 +26,10 @@ This project enhances fraud detection for e-commerce and banking transactions at
 │   ├── __init__.py
 │   ├── explore_data.py
 │   ├── feature_engineer.py
-│   ├── preprocess_data.py
-│   ├── train_models.py
 │   ├── interprate_models.py
-│   └── README.md
+│   ├── preprocess_data.py
+│   ├── README.md
+│   └── train_models.py
 ├── src
 │   ├── __init__.py
 │   └── README.md
@@ -48,7 +52,19 @@ This project enhances fraud detection for e-commerce and banking transactions at
 │   └── best_RNN_fraud_data.h5
 ├── README.md
 ├── requirements.txt
+├── Dockerfile
 ```
+
+## Endpoints
+
+- `GET /api/summary`: Returns summary statistics of fraudulent transactions.
+- `GET /api/fraud_trend`: Returns fraud trends over time.
+- `GET /api/fraud_location`: Returns fraud cases by location.
+- `GET /api/device_analysis`: Returns fraud cases by device ID.
+- `GET /api/correlation_analysis`: Performs correlation analysis on fraud-related features.
+- `GET /api/univariate_analysis`: Performs univariate analysis on fraud-related features.
+- `GET /dashboard/`: Displays a Dash dashboard with fraud analysis charts.
+
 
 ## Installation
 
@@ -64,3 +80,11 @@ This project enhances fraud detection for e-commerce and banking transactions at
    source venv/bin/activate  # On Windows, use `venv/Scripts/activate`
    pip install -r requirements.txt
    ```
+
+3. **Run the application**:
+    ```sh
+    python app/serve_model.py
+    ```
+
+4. **Access the API**:
+    Open your browser and navigate to `http://127.0.0.1:5000`.
