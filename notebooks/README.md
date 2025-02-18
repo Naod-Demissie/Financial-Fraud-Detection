@@ -31,3 +31,9 @@ This notebook is dedicated to feature engineering, which involves creating new f
 This notebook covers the training of various machine learning models:
 - **Import Libraries**: Loading necessary libraries for model training.
 - **Modeling**: Initializing and training classical machine learning models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting) and deep learning models (CNN, RNN, LSTM) on the processed data. Evaluating the performance of each model using appropriate metrics.
+
+### `5.0-Model-Interpretation.ipynb`
+
+This notebook focuses on interpreting the trained models to understand their decision-making process:
+- **Import Libraries**: Loading necessary libraries for model interpretation.
+- **Model Interpretation**: Using techniques like LIME and SHAP to interpret the predictions of various models (Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, CNN, RNN, LSTM). Visualizing the feature importance and understanding the impact of each feature on the model's predictions.
