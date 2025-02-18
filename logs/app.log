@@ -1,0 +1,160 @@
+2025-02-18 14:48:45,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 14:48:45,833 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 14:48:45,834 - INFO -  * Restarting with stat
+2025-02-18 14:48:49,558 - WARNING -  * Debugger is active!
+2025-02-18 14:48:49,558 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 14:49:25,836 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:25] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 14:49:26,042 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/deps/polyfill@7.v2_9_3m1739802250.12.1.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,058 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dash-renderer/build/dash_renderer.v2_9_3m1739802250.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,062 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/deps/prop-types@15.v2_9_3m1739802250.8.1.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,063 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/deps/react@16.v2_9_3m1739802250.14.0.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,070 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/deps/react-dom@16.v2_9_3m1739802250.14.0.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,091 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v1_7_1m1739876559.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,134 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dash_table/bundle.v5_2_4m1739802250.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,140 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components-shared.v2_9_2m1739802250.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,148 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/html/dash_html_components.v2_0_11m1739802250.min.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,180 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dcc/dash_core_components.v2_9_2m1739802250.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,654 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 14:49:26,657 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 14:49:26,748 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-02-18 14:49:26,806 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 14:49:26,812 - INFO - 127.0.0.1 - - [18/Feb/2025 14:49:26] "GET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1" 200 -
+2025-02-18 14:52:59,160 - INFO - 127.0.0.1 - - [18/Feb/2025 14:52:59] "[33mGET /api HTTP/1.1[0m" 404 -
+2025-02-18 14:53:03,374 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:03] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-02-18 14:53:20,310 - INFO - API Call: /api/fraud_trend
+2025-02-18 14:53:20,533 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:20] "[35m[1mGET /api/fraud_trend HTTP/1.1[0m" 500 -
+2025-02-18 14:53:20,598 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:20] "GET /api/fraud_trend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-18 14:53:20,620 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:20] "GET /api/fraud_trend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-18 14:53:20,664 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:20] "GET /api/fraud_trend?__debugger__=yes&cmd=resource&f=console.png&s=T3J5UkVBxS6zNF4MsBjx HTTP/1.1" 200 -
+2025-02-18 14:53:20,703 - INFO - 127.0.0.1 - - [18/Feb/2025 14:53:20] "GET /api/fraud_trend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-18 15:14:31,841 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:31] "[33mGET /api/ HTTP/1.1[0m" 404 -
+2025-02-18 15:14:39,980 - INFO - API Call: /api/missing_values
+2025-02-18 15:14:39,993 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:39] "[35m[1mGET /api/missing_values HTTP/1.1[0m" 500 -
+2025-02-18 15:14:40,038 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:40] "GET /api/missing_values?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-18 15:14:40,040 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:40] "GET /api/missing_values?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-18 15:14:40,072 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:40] "GET /api/missing_values?__debugger__=yes&cmd=resource&f=console.png&s=T3J5UkVBxS6zNF4MsBjx HTTP/1.1" 200 -
+2025-02-18 15:14:40,100 - INFO - 127.0.0.1 - - [18/Feb/2025 15:14:40] "GET /api/missing_values?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-18 15:15:09,859 - INFO - API Call: /api/bivariate_analysis
+2025-02-18 15:15:09,869 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:09] "[35m[1mGET /api/bivariate_analysis HTTP/1.1[0m" 500 -
+2025-02-18 15:15:09,907 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:09] "GET /api/bivariate_analysis?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-18 15:15:09,911 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:09] "GET /api/bivariate_analysis?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-18 15:15:09,945 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:09] "GET /api/bivariate_analysis?__debugger__=yes&cmd=resource&f=console.png&s=T3J5UkVBxS6zNF4MsBjx HTTP/1.1" 200 -
+2025-02-18 15:15:09,984 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:09] "GET /api/bivariate_analysis?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-18 15:15:17,701 - INFO - API Call: /api/univariate_analysis
+2025-02-18 15:15:21,290 - INFO - API Call: /api/univariate_analysis
+2025-02-18 15:15:26,911 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:26] "GET /api/univariate_analysis HTTP/1.1" 200 -
+2025-02-18 15:15:32,606 - INFO - 127.0.0.1 - - [18/Feb/2025 15:15:32] "[35m[1mGET /api/univariate_analysis HTTP/1.1[0m" 500 -
+2025-02-18 15:16:35,624 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/serve_model.py', reloading
+2025-02-18 15:16:37,276 - INFO -  * Restarting with stat
+2025-02-18 15:16:41,383 - WARNING -  * Debugger is active!
+2025-02-18 15:16:41,384 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:16:41,400 - INFO - API Call: /api/correlation_analysis
+2025-02-18 15:20:08,102 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/serve_model.py', reloading
+2025-02-18 15:20:08,622 - INFO -  * Restarting with stat
+2025-02-18 15:20:13,058 - WARNING -  * Debugger is active!
+2025-02-18 15:20:13,058 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:20:13,497 - INFO - API Call: /api/correlation_analysis
+2025-02-18 15:20:15,818 - INFO - 127.0.0.1 - - [18/Feb/2025 15:20:15] "GET /api/correlation_analysis HTTP/1.1" 200 -
+2025-02-18 15:20:25,041 - INFO - API Call: /api/summary
+2025-02-18 15:20:25,070 - INFO - 127.0.0.1 - - [18/Feb/2025 15:20:25] "GET /api/summary HTTP/1.1" 200 -
+2025-02-18 15:20:35,104 - INFO - API Call: /api/fraud_trend
+2025-02-18 15:20:35,276 - INFO - 127.0.0.1 - - [18/Feb/2025 15:20:35] "GET /api/fraud_trend HTTP/1.1" 200 -
+2025-02-18 15:20:47,224 - INFO - API Call: /api/fraud_location
+2025-02-18 15:20:47,237 - INFO - 127.0.0.1 - - [18/Feb/2025 15:20:47] "GET /api/fraud_location HTTP/1.1" 200 -
+2025-02-18 15:20:58,669 - INFO - API Call: /api/device_analysis
+2025-02-18 15:20:58,736 - INFO - 127.0.0.1 - - [18/Feb/2025 15:20:58] "GET /api/device_analysis HTTP/1.1" 200 -
+2025-02-18 15:21:39,034 - INFO - 127.0.0.1 - - [18/Feb/2025 15:21:39] "[33mGET /api/dashboard HTTP/1.1[0m" 404 -
+2025-02-18 15:22:54,472 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/serve_model.py', reloading
+2025-02-18 15:23:15,116 - INFO -  * Restarting with stat
+2025-02-18 15:23:20,501 - WARNING -  * Debugger is active!
+2025-02-18 15:23:20,503 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:24:28,133 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/serve_model.py', reloading
+2025-02-18 15:24:28,599 - INFO -  * Restarting with stat
+2025-02-18 15:24:32,565 - WARNING -  * Debugger is active!
+2025-02-18 15:24:32,565 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:24:38,926 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:38] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 15:24:39,186 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:39] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 15:24:39,188 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:39] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 15:24:39,207 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:39] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 15:24:39,229 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:39] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-18 15:24:39,254 - INFO - 127.0.0.1 - - [18/Feb/2025 15:24:39] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-18 15:25:30,060 - INFO - API Call: /api/device_analysis
+2025-02-18 15:25:30,205 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:30] "GET /api/device_analysis HTTP/1.1" 200 -
+2025-02-18 15:25:36,187 - INFO - API Call: /api/device_analysis
+2025-02-18 15:25:36,283 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:36] "GET /api/device_analysis HTTP/1.1" 200 -
+2025-02-18 15:25:41,628 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 15:25:41,783 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 15:25:41,789 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 15:25:41,805 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 15:25:41,825 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-18 15:25:41,842 - INFO - 127.0.0.1 - - [18/Feb/2025 15:25:41] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-18 15:29:00,866 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/dashboard.py', reloading
+2025-02-18 15:29:01,454 - INFO -  * Restarting with stat
+2025-02-18 15:33:32,292 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 15:33:32,292 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 15:33:32,293 - INFO -  * Restarting with stat
+2025-02-18 15:33:37,130 - WARNING -  * Debugger is active!
+2025-02-18 15:33:37,131 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:33:45,854 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:45] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 15:33:46,185 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:46] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 15:33:46,227 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:46] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 15:33:46,227 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:46] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 15:33:46,259 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:46] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-18 15:33:46,281 - INFO - 127.0.0.1 - - [18/Feb/2025 15:33:46] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-18 15:34:02,425 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 15:34:02,608 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 15:34:02,611 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 15:34:02,614 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 15:34:02,639 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-18 15:34:02,654 - INFO - 127.0.0.1 - - [18/Feb/2025 15:34:02] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-18 15:37:42,356 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/dashboard.py', reloading
+2025-02-18 15:37:43,118 - INFO -  * Restarting with stat
+2025-02-18 15:40:20,816 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 15:40:20,816 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 15:40:20,817 - INFO -  * Restarting with stat
+2025-02-18 15:40:25,824 - WARNING -  * Debugger is active!
+2025-02-18 15:40:25,824 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:40:43,991 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/dashboard.py', reloading
+2025-02-18 15:40:44,684 - INFO -  * Restarting with stat
+2025-02-18 15:40:49,639 - WARNING -  * Debugger is active!
+2025-02-18 15:40:49,640 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 15:40:49,659 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "GET /dashboard/ HTTP/1.1" 200 -
+2025-02-18 15:40:49,854 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "GET /dashboard/_dash-dependencies HTTP/1.1" 200 -
+2025-02-18 15:40:49,876 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "GET /dashboard/_dash-layout HTTP/1.1" 200 -
+2025-02-18 15:40:49,877 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "GET /dashboard/_favicon.ico?v=2.9.3 HTTP/1.1" 200 -
+2025-02-18 15:40:49,920 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-18 15:40:49,941 - INFO - 127.0.0.1 - - [18/Feb/2025 15:40:49] "[36mGET /dashboard/_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-18 16:16:39,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 16:16:39,774 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 16:16:39,775 - INFO -  * Restarting with stat
+2025-02-18 16:16:44,267 - WARNING -  * Debugger is active!
+2025-02-18 16:16:44,268 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 16:17:23,912 - INFO - 127.0.0.1 - - [18/Feb/2025 16:17:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-18 16:17:49,362 - INFO - API Call: /api/summary
+2025-02-18 16:17:49,371 - INFO - 127.0.0.1 - - [18/Feb/2025 16:17:49] "GET /api/summary HTTP/1.1" 200 -
+2025-02-18 16:17:59,038 - INFO - API Call: /api/fraud_trend
+2025-02-18 16:17:59,165 - INFO - 127.0.0.1 - - [18/Feb/2025 16:17:59] "GET /api/fraud_trend HTTP/1.1" 200 -
+2025-02-18 16:18:09,977 - INFO - API Call: /api/fraud_location
+2025-02-18 16:18:10,019 - INFO - 127.0.0.1 - - [18/Feb/2025 16:18:10] "GET /api/fraud_location HTTP/1.1" 200 -
+2025-02-18 16:18:18,555 - INFO - API Call: /api/device_analysis
+2025-02-18 16:18:18,626 - INFO - 127.0.0.1 - - [18/Feb/2025 16:18:18] "GET /api/device_analysis HTTP/1.1" 200 -
+2025-02-18 16:18:28,369 - INFO - API Call: /api/correlation_analysis
+2025-02-18 16:18:31,478 - INFO - 127.0.0.1 - - [18/Feb/2025 16:18:31] "GET /api/correlation_analysis HTTP/1.1" 200 -
+2025-02-18 16:18:38,657 - INFO - API Call: /api/univariate_analysis
+2025-02-18 16:18:48,303 - INFO - 127.0.0.1 - - [18/Feb/2025 16:18:48] "GET /api/univariate_analysis HTTP/1.1" 200 -
+2025-02-18 16:19:06,578 - INFO - 127.0.0.1 - - [18/Feb/2025 16:19:06] "[33mGET /api/dashboard HTTP/1.1[0m" 404 -
+2025-02-18 16:19:10,354 - INFO - 127.0.0.1 - - [18/Feb/2025 16:19:10] "[33mGET /api/dashboard/ HTTP/1.1[0m" 404 -
+2025-02-18 16:19:35,979 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/dashboard.py', reloading
+2025-02-18 16:21:51,233 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-18 16:21:51,233 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-18 16:21:51,235 - INFO -  * Restarting with stat
+2025-02-18 16:21:55,854 - WARNING -  * Debugger is active!
+2025-02-18 16:21:55,855 - INFO -  * Debugger PIN: 358-470-807
+2025-02-18 16:21:55,890 - INFO - 127.0.0.1 - - [18/Feb/2025 16:21:55] "[33mGET /api/dashboard HTTP/1.1[0m" 404 -
+2025-02-18 16:22:53,432 - INFO -  * Detected change in '/home/naod/Projects/tenx/W8/Financial-Fraud-DetectionV0/app/dashboard.py', reloading
+2025-02-18 16:22:54,546 - INFO -  * Restarting with stat
