@@ -8,7 +8,12 @@ This project enhances fraud detection for e-commerce and banking transactions at
 ```
 ├── app
 │   ├── __init__.py
+│   ├── dashboard.py
 │   └── serve_model.py
+├── assets
+│   └── images
+│       ├── image 1.png
+│       └── image 2.png
 ├── data
 │   ├── processed
 │   └── raw
@@ -55,6 +60,7 @@ This project enhances fraud detection for e-commerce and banking transactions at
 ├── Dockerfile
 ```
 
+
 ## Endpoints
 
 - `GET /api/summary`: Returns summary statistics of fraudulent transactions.
@@ -88,3 +94,8 @@ This project enhances fraud detection for e-commerce and banking transactions at
 
 4. **Access the API**:
     Open your browser and navigate to `http://127.0.0.1:5000`.
+
+
+## Dashboard
+
+The Dash dashboard is accessible at `http://127.0.0.1:5000/dashboard/` and provides visualizations for fraud trends and fraud cases by location.
