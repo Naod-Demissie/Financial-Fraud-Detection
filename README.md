@@ -16,6 +16,7 @@ This project enhances fraud detection for e-commerce and banking transactions at
 │   ├── 2.0-data-exploration.ipynb
 │   ├── 3.0-feature-engineering.ipynb
 │   ├── 4.0-model-training.ipynb
+│   ├── 5.0-model-Interpretation.ipynb
 │   └── README.md
 ├── scripts
 │   ├── __init__.py
@@ -23,6 +24,7 @@ This project enhances fraud detection for e-commerce and banking transactions at
 │   ├── feature_engineer.py
 │   ├── preprocess_data.py
 │   ├── train_models.py
+│   ├── interprate_models.py
 │   └── README.md
 ├── src
 │   ├── __init__.py
